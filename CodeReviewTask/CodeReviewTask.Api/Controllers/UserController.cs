@@ -4,7 +4,7 @@ namespace CodeReviewTask.Api.Controllers
 {
     public class UserController : Controller
     {
-        public IActionResult Index()
+        public IActionResult Delete()
         {
             return View();
         }
