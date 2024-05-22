@@ -1,0 +1,6 @@
+@CodeReviewTask.Api_HostAddress = http://localhost:5072
+
+GET {{CodeReviewTask.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
