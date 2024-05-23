@@ -1,6 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
-using CodeReviewTask.Domain.Models.User;
-using Microsoft.Extensions.Options;
+﻿using CodeReviewTask.Database.Entities;
+using Microsoft.EntityFrameworkCore;
 
 namespace CodeReviewTask.Database.Contexts
 {
