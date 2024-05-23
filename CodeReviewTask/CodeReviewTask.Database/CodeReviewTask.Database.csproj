@@ -18,6 +18,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CodeReviewTask.Api\CodeReviewTask.Api.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Update="db\Users.db">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
