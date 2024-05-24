@@ -5,8 +5,6 @@ VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeReviewTask.Api", "CodeReviewTask.Api\CodeReviewTask.Api.csproj", "{01C7EFF9-3608-45DC-8938-225182F2D39A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeReviewTask.Domain", "CodeReviewTask.Domain\CodeReviewTask.Domain.csproj", "{BE882C50-8197-4870-B254-45B0EE2032E5}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeReviewTask.Database", "CodeReviewTask.Database\CodeReviewTask.Database.csproj", "{2414C951-4A57-42FD-B1F9-9E5EB3ACAA4A}"
 EndProject
 Global
