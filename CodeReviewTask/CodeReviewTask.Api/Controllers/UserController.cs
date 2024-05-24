@@ -26,7 +26,7 @@ namespace CodeReviewTask.Api.Controllers
                 return NotFound();
             }
 
-            _userRepository.Delete(id);
+            _userRepository.Delete(user);
 
             _logger.LogInformation("User with Id {Id} has been deleted", id);
             return Ok();

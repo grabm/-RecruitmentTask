@@ -4,7 +4,7 @@ namespace CodeReviewTask.Database.Repositories.Users
 {
     public interface IUserRepository
     {
-        void Delete(int id);
+        void Delete(User user);
         User GetById(int id);
     }
 }

@@ -12,16 +12,14 @@ namespace CodeReviewTask.Database.Repositories.Users
             _context = context;
         }
 
-        public void Delete(int id)
+        public void Delete(User user)
         {
-            var user = _context.Users.Find(id);
-
             _context.Users.Remove(user);
             _context.SaveChanges();
         }
         public User GetById(int id)
         {
-            var user = _context.Users.Find(id);
+            var user = _context.Users.SingleOrDefault(x => x.Id == id);
             
             return user;
         }
