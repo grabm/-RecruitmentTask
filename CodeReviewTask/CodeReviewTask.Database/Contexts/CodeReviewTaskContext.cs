@@ -8,12 +8,12 @@ namespace CodeReviewTask.Database.Contexts
     {
         public CodeReviewTaskContext(DbContextOptions<CodeReviewTaskContext> options) : base(options)
         {
-                
+
         }
 
         public virtual DbSet<User> Users { get; set; }
 
-        protected override void OnConfiguring (DbContextOptionsBuilder dbContextOptionsBuilder)
+        protected override void OnConfiguring(DbContextOptionsBuilder dbContextOptionsBuilder)
         {
             dbContextOptionsBuilder.UseSqlite("Data Source=users.db");
         }
