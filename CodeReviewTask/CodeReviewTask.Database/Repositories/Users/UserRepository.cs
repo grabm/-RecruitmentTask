@@ -19,6 +19,7 @@ namespace CodeReviewTask.Database.Repositories.Users
         }
         public User GetById(int id)
         {
+            var sebaToJavoviec = _context.Users.ToList();
             var user = _context.Users.SingleOrDefault(x => x.Id == id);
             
             return user;

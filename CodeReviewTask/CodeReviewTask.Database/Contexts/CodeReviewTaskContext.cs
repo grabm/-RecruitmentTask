@@ -1,6 +1,5 @@
 ﻿using CodeReviewTask.Database.Entities;
 using Microsoft.EntityFrameworkCore;
-using System;
 
 namespace CodeReviewTask.Database.Contexts
 {
